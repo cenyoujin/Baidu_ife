@@ -1,0 +1,190 @@
+*{
+	margin:0;padding:0;
+}
+body{
+	font-family:'Microsoft YaHei';
+	background:#dedede;
+}
+/*头部*//***************************************/
+header{
+	position:relative;
+	height:60px;
+	background:#333;
+}
+header h1 img{
+	height:58px;
+	margin-left:20px
+}
+header ul{
+	position:absolute;top:0;right:10px;
+}
+header ul li{
+	text-align:center;
+	width:60px;
+	display:block;
+	float:left;
+	padding:20px 10px; 	
+}
+header ul li:hover{
+	border-bottom:1px solid red;
+ 	background:#474747;
+	border-radius:3px;
+}
+header ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+}
+
+/*主体部分*//*************************************************/
+article,aside{
+	margin:30px;padding:20px;
+	background:white;
+	box-shadow:1px 1px 2px 1px #848484;
+}
+article{
+    position:relative;
+    display:block;
+    margin:30px 400px 30px 30px;padding:20px;
+    background:white;
+    box-shadow:1px 1px 2px 1px #848484;
+    overflow:auto;
+}
+article h2{
+	margin:2px;
+	padding:5px 0;
+	font-size:22px;
+	color:#808080;
+}
+article h3{
+	padding:10px 0;
+	color:#808080;
+	font-size:16px;
+}
+article a{
+	color:blue;
+}
+article a:hover{
+	color:red;
+}
+.author,.aTime{
+	font-size:12px;
+	color:#808080;
+	line-height:30px;
+}
+article p{
+	text-indent:2em;
+}
+article img{
+	padding:15px 0;
+}
+.imgAdr{
+	float:left;
+	width:125;
+	height:125px;
+	margin:20px;
+	border:1px solid #ccc;
+}
+.imgAdr a{
+	display:block;
+	font-size:12px;
+	text-align:center;
+	padding-top:5px;
+	}
+.imglis{
+	height:240px;
+	width:300px;
+}
+.imglisque{
+	width:100px;
+	height:80px;
+	padding:10px;
+}
+article ul li{
+	width:120px;
+	margin:15px;
+	border:1px solid #ccc;
+}
+article dl dd span{
+	display:block;
+	font-size:12px;
+	text-align:center;
+	margin:5px;
+}
+article ol{
+	margin:10px 40px;
+}
+article table{
+	width:100%;
+	border-collapse:collapse;
+}
+article table tr th{
+	color:white;
+	background:#333;
+}
+article table tr td{
+	border:1px solid #ccc;
+}
+article table .buttomTable{
+	background:#ccc;
+}
+/***********************************************/
+aside{
+  height: 500px;
+  position: fixed;
+  width: 300px;
+  top:60px;
+  right:0;
+  padding:20px;
+  margin:30px;
+}
+aside h4{
+	border-left:2px solid #ccc;
+	line-height:40px;
+	padding-left:10px;
+}
+aside form div{
+	font-size:14px;
+	margin:15px 0;
+}
+aside form  .tips{
+	float:left;
+	padding-right:15px;
+	text-align:right;
+	width:35%;
+}
+aside form .sex{
+	line-height:20px;
+	text-align:center;
+}
+aside from div p{
+	color:#aaa;
+	font-size:12px;
+	margin-left:35%;
+	padding-left:15px;
+}
+aside textarea{
+	height:100px;
+	width:50%
+}
+aside .submitButton{
+	background:#128fdc;
+	border:medium none;
+	border-radius:10px;
+	font-size:19px;
+	height:40px;
+	width:100%;
+}
+aside .submitButton:hover{
+	background:#0063dc;
+}
+footer{
+	background:black;
+	color:white;
+	font-size:16px;
+	height:50px;
+	line-height:50px;	
+	text-align:center;
+	width:100%
+}
+

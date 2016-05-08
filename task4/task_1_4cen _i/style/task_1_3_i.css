@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+html, body, div{
+  margin: 0;
+  padding: 0;
+}
+
+.mainbody {
+  background: #eee !important;
+  margin: 20px;
+  width: calc(200px + 200px + 120px + 80px);
+  overflow: auto;
+  font-family:"Helvetica Neue",Helvetica,Arial,"pingfang sc","Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,sans-serif;
+}
+.mainbody, .left, .middle, .right {
+  background: white;
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+}
+.middle {
+  margin: 0 140px 0 220px;/*为什么不是160px*/
+}
+.middle h3 {
+  margin-top: 0;  
+}
+.right {
+  float: right;
+  height: auto;
+  width: 120px;
+}
+
+.bodysLogo,.teamLogo {
+  height: 80px;
+  width: 80px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.left .bodysLogo {
+  float: left;
+}

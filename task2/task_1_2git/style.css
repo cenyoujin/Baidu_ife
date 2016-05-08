@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #dedede ;
+    font-family: "Microsoft YaHei";
+}
+header {
+    background: #333 ;
+    height: 60px;
+    position: relative;
+}
+header h1 img {
+    height: 58px;
+    padding-left: 20px;
+}
+header ul {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+header ul li {
+    display: block;
+    float: left;
+    padding: 20px 10px;
+    text-align: center;
+    width: 60px;
+}
+header ul li a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+header ul li:hover {
+    background: #474747 ;
+    border-bottom: 1px solid red;
+    border-radius: 3px;
+}
+article, aside {
+    background: white ;
+    box-shadow: 1px 1px 2px 1px #848484;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+}
+article h2 {
+    padding: 5px 0;
+}
+article h3 {
+    color: #808080;
+    font-size: 16px;
+    padding: 10px 0;
+}
+article a {
+    color: blue;
+}
+article a:hover {
+    color: red;
+}
+.auther, .aTime {
+    color: #808080;
+    font-size: 12px;
+    line-height: 30px;
+}
+article p {
+    text-indent: 2em;
+}
+article img {
+    padding: 15px 0;
+}
+article ul li {
+    list-style-type: none;
+}
+article dl dd {
+    border: 1px solid #ccc;
+    margin: 15px;
+    width: 120px;
+}
+article dl dd span {
+    display: block;
+    font-size: 12px;
+    margin: 5px;
+    text-align: center;
+}
+article dl dd img {
+    padding: 5px;
+    width: 110px;
+}
+article ol {
+    margin: 10px 40px;
+}
+article table {
+    border-collapse: collapse;
+    width: 100%;
+}
+article table tr th {
+    background: #333 ;
+    color: white;
+}
+article table tr td {
+    border: 1px solid #ccc;
+}
+article table .buttomTable {
+    background: #ccc ;
+}
+aside h4 {
+    border-left: 3px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+aside form div {
+    font-size: 14px;
+    margin: 15px 0;
+}
+aside form div .tips {
+    float: left;
+    padding-right: 15px;
+    text-align: right;
+    width: 35%;
+}
+aside form div p {
+    color: #aaa;
+    font-size: 12px;
+    margin-left: 35%;
+    padding-left: 15px;
+}
+aside textarea {
+    height: 100px;
+    width: 50%;
+}
+aside .submitButton {
+    background: #128fdc ;
+    border: medium none;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+    width: 100%;
+}
+aside .submitButton:hover {
+    background: #0063dc ;
+}
+footer {
+    background: black ;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
