@@ -7,6 +7,7 @@
 body{
 	font-family:"Microsoft YaHei";
 	min-width:1280px;
+	height:1266px;
 }
 header{
 	width:100%;
@@ -18,17 +19,118 @@ header{
 	padding-left:50px;
 	padding-top:10px;
 }
-.search{
+ .search{
 	float:left;
-	padding-top:13.5px;
-	padding-bottom:13.5px;
-	padding-left:65%;
+	margin-left:725px;	
+	margin-top:14px;
 	width:315px;
 	height:28px;
-	border-radius:15px;
+	margin-top:14px;
+	border-radius:14px;
+	border:none;
+	background:#fff;
 }
 .search input{
-	width:325px;
-	border-radius:15px;
+	padding-left:29px;
+	width:315px;
+	height:28px;
+	border-radius:14px;
 	border:none;
+    background: url("../img/search.png") no-repeat 14px;
+} 
+.login {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;    
+	background: url("../img/manlogo.png") no-repeat 14px;
+}
+ .login span {
+	display:block;
+    color: #fff;
+	padding-left:32px;
+}
+.mainshow{
+	width:100%;
+}
+.left_block{
+	font-size:12px;
+	color:#6e8096;
+	clear:both;
+	float:left;
+	width:260px;
+	height:1266px;
+	background-color:#2a2e3d;
+}
+.avatar{
+	float:left;
+	width:57px;
+	height:57px;
+	border-radius:57px;
+	border:1px solid #fff;
+	margin-top:20px;
+	margin-left:45px;
+}
+.avatar div{
+	width:48px;
+	height:48px;
+	margin-left:4px;
+	margin-top:4px;
+	border-radius:50px;
+	border:1px solid #fff;
+	background-color:#bababa;
+}
+.username {
+	font:"黑体";
+	font-size:18px;
+	width:25px;
+	float:left;
+	padding-left:16px;
+	padding-top:38px;
+	color:#fff;
+}
+.favorate_num{
+	clear:both;
+	height:80px;
+	font-size:15px;
+	font:"黑体";
+}
+.collect {
+	float:left;
+	margin-left:60px;
+	margin-top:20px;
+	margin-right:20px;
+}
+.fans{
+	padding-left:30px;
+	margin-top:20px;
+	float:left;
+	border-left:1px solid ;
+}
+.self_report{
+	height:190px;
+	background-color:#393e4e;
+	clear:both;
+}
+.self_report div{
+	margin-bottom:10px;
+}
+.retitle{
+	padding-left:45px;
+	padding-top:5px;
+	
+}
+.retitle span{
+	padding-left:20px;
+	background:url("../img/icon1.png") no-repeat left;
+}
+.folder{
+	padding-left:65px;
+}
+.doc1 .doc2{
+	background:url("../img/arrowleft.png") no-repeat left;
+	padding-left:15px;
+}
+.doc1 span,.doc2 span{
+	background:url("../img/folder1.png") no-repeat left;
+	padding-left:15px;
 }
