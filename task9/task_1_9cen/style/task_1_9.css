@@ -126,11 +126,150 @@ header{
 .folder{
 	padding-left:65px;
 }
-.doc1 .doc2{
+.doc1,.doc3{
 	background:url("../img/arrowleft.png") no-repeat left;
 	padding-left:15px;
 }
-.doc1 span,.doc2 span{
+.doc1 span,.doc2 span,.doc3 span{
 	background:url("../img/folder1.png") no-repeat left;
 	padding-left:15px;
+}
+.doc2 ul{
+	padding-left:14px;
+	padding-top:5px;
+	list-style-type:none;
+}
+.doc2 ul li{
+	padding-top:5px;
+	padding-left:14px;
+	background:url("../img/file1.png") no-repeat left;
+}
+.tt{
+	padding-left:45px;
+	padding-top:20px;
+}
+.tt span{
+		background:url("../img/icon2.png") no-repeat left;
+		padding-left:14px;
+}
+/* right_side*/
+ .right_side{
+	float:left;
+	width:80.7%;	background-color:#ededec;
+
+}
+.right_header{
+	padding-top: 9px;
+	line-height:12px;
+	height:30px;
+	font:"黑体";
+	font-size:12.28px;
+	background-color:white;
+}
+.right_header p{
+	padding-left:20px;
+}
+.right_content{
+	text-align:center;
+}
+.rightcontent{
+	position:relative;
+	float:left;
+	width:100%;		
+}
+.floor{
+	width:90%;
+	margin:20px auto;
+	background-color:white	!important;
+}
+.searchpj{
+	padding-top:5px;
+	font:"微软雅黑";
+	font-size:16px;
+	color:#dedede;
+}
+.searchpj p{
+	float:left;
+	padding-left:15px;
+}
+.searchpj div{
+	float:left;
+	color:#323333;
+	margin-left:15px;
+	border:1px solid #c2c3c4;
+	padding-right:10px;
+	padding-left:5px;
+	height:26px;
+	width:70px;
+	background:url("../img/blue-gou.png") no-repeat right;
+}
+ .buysell{
+	float:left;
+	margin-left:35px;
+}
+.buy p,.sell p{
+	float:left;
+	margin-top:5px;
+	
+}
+.buy div,.sell div{
+	width:121px;
+	height:26px;
+	border:1px solid #ccc;
+	margin-left:35px;
+	text-indent:6px;
+ 	background-image:url(img/grey-gou.png);
+	background-repeat:no-repeat;
+	background-position:93% 50%;
+	margin-top:5px;
+	/* float:left;
+	width:100px;
+	margin-left:20px;
+	border:1px solid #c2c3c4;
+	background:url("../img/blue-gou.png") no-repeat right; */
+}
+.buy:after,.sell:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sell{
+	float:left;
+/* 	padding-top:30px;
+ */}
+.change {
+	padding-top:13px;
+	position:relative;
+} 
+.change p{
+	position: absolute;
+	font-size:13px;
+    top: 22px;
+    left: 352px;}
+.data{
+	clear:both;
+	width:280px;
+	float:left;
+	clear:both;
+	border:1px solid red;
+}
+.data{
+	width: 292px;
+    height: 55px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.spend:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+.spend{
+	    margin-bottom: 5px;
+
+}
+.spend p,.evolve p{
+	clear:both;
+	float:left;
 }
